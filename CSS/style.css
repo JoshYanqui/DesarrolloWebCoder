@@ -1,0 +1,88 @@
+/*color*/
+body{
+    background-color: #F6F8FA;
+}
+.colorFondo{
+    background-color:#E7E9EB ;
+}
+/*Fuente y color de fuente*/
+h1, h2, h3, h4, a, input::placeholder, textarea::placeholder, li{
+    font-family: 'Raleway', sans-serif;
+    color: #061017;
+}
+p, button {
+    font-family: 'Roboto', sans-serif;
+    color: #061017;
+    font-size: 16px;
+    line-height: 24px;
+}
+/*Navegador*/
+.navBar{
+    color: #655437;
+    font-size:20px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 24px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    /* background-color: #8f8d8a; */
+    width: 70vw;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+}
+/*Tamaño de texto y espaciado*/
+h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight:500;
+}
+h2{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight:400
+}
+h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight:500
+}
+
+.bordeYAlienacion{
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin: 16px 16px;
+}
+input, textarea{
+    background-color: #E7E9EB ;
+    border-style: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+.textSmall{
+    font-size: 12.8px;
+    line-height: 16px;
+}
+button{
+    background-color: #F0C984;
+    border-style: none;
+    padding: 8px 8px;
+    border-radius: 16px;
+}
+.border{
+    border-radius: 16px;
+}
+.paddingCard{
+    padding: 16px;
+}
+.inicio-productos{
+    display: flex;
+    justify-content: space-evenly ;
+}
