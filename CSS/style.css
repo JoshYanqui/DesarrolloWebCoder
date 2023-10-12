@@ -1,9 +1,9 @@
 /*color*/
 body{
-    background-color: #ffafaf;
+    background-color: #F6F8FA;
 }
 .colorFondo{
-    background-color:#E7E9EB ;
+    background-color:#E7E9EB;
 }
 /*Fuente y color de fuente*/
 h1, h2, h3, h4, a, input::placeholder, textarea::placeholder, li{
@@ -52,9 +52,6 @@ h4{
     line-height: 24px;
     font-weight:500
 }
-.altura-card{
-    height: 16rem;
-}
 
 .bordeYAlienacion{
     border-radius: 8px;
@@ -82,13 +79,11 @@ button{
 .border{
     border-radius: 16px;
 }
-.paddingCard{
-    padding: 16px;
+.AlturaCard{
+   
+    max-height: 540px;
 }
 .inicio-productos{
     display: flex;
     /* justify-content: space-evenly ; */
-}
-img {
-    height: 100%;
 }
