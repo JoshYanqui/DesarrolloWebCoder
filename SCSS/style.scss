@@ -1,0 +1,21 @@
+body {
+    width: 100vw !important; 
+  }
+  
+main{
+    margin-top: 7rem;
+}
+header{
+    background-color: #0E2537;
+}
+footer{
+    @extend header
+}
+.jy-color{
+    color: aliceblue;
+}
+
+.jy-margin{
+    margin-left: 0;
+    margin-right: 0;
+}

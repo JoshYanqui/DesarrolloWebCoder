@@ -12,29 +12,38 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="../index.html"><img src="../Images/Igemar.png" alt=""></a>
-        <nav>
-            <ul>
-                <li><a class="navBar" href="../index.html">Inicio</a></li>
-                <li><a class="navBar" href="./Productos.html">Productos</a></li>
-                <li><a class="navBar" href="./Nosotros.html">Nosotros</a></li>
-                <li><a class="navBar" href="./Contacto.html">Contacto</a></li>
-                <li><a class="navBar" href="./Compramos.html">Compramos</a></li>
-            </ul>
-        </nav>
+    <header class="fixed-top navbar navbar-expand-lg">
+        <div class="container-fluid d-flex px-4">
+            <a class="py-2" href="../index.html"><img src="../images/igemar.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse pe-3 justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li><a class="navBar nav-link jy-color" href="../index.html">Inicio</a></li>
+                    <li><a class="navBar nav-link jy-color" href="./productos.html">Productos</a></li>
+                    <li><a class="navBar nav-link jy-color" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="navBar nav-link jy-color" href="./contacto.html">Contacto</a></li>
+                    <li><a class="navBar nav-link jy-color" href="./compramos.html">Compramos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <h1>Compramos envases usados</h1>
-        <p>Recolectamos directamente de tu empresa</p>
-        <button type="submit">Solicitar recolección</button>
-        <img src="../Images/Tanques_ibc_inicio.png" alt="">
+        <section class="row">
+            <div class="col-12 col-md-6">
+                <h1>Compramos envases usados</h1>
+                <p>Recolectamos directamente de tu empresa</p>
+                <button type="submit">Solicitar recolección</button>
+            </div>
+            <img  class="col-12 col-md-6" src="../Images/Tanques_ibc_inicio.png" alt="">
+        </section>
         <section>
             <h2>Pagamos al contado</h2>
             <div>
                 <h3>Criterios de compra</h3>
                 <p>Material aceptado</p>
-                <div class="colorFondo bordeYAlienacion">
+                <div class="">
                     <ul>
                         <li>Materiales y cubierta en buen estado</li>
                         <li>Sin oxido en caso de tanques</li>
@@ -49,7 +58,7 @@
             <div>
                 <h3>Criterios de rechazo</h3>
                 <p>Material NO aceptado</p>
-                <div class="colorFondo bordeYAlienacion">
+                <div class="">
                     <ul>
                         <li>No aceptamos envases con agujeros</li>
                         <li>No aceptamos envases de otro tipo de materiales</li>
@@ -63,26 +72,27 @@
             </div>
         </section>
     </main>
-    <footer class="colorFondo">
-        <a href="../index.html"><img src="../Images/Igemar.png" alt=""></a>
-        <ul>
+    <footer class="row">
+        <a class="col-12 col-sm-6 col-md-3" href="../index.html"><img src="../Images/Igemar.png" alt=""></a>
+        <ul class="col-12 col-sm-6 col-md-3 row">
             <li><h3>Dirección y contacto</h3></li>
             <li>Av. Las Torres km 5</li>
             <li>987 654 321</li>
             <li>Correo@gmail.com</li>
         </ul>
-        <ul>
+        <ul class="col-12 col-sm-6 col-md-3 row">
             <li><h3>Atención al cliente</h3></li>
             <li>Cotización</li>
             <li>Políticas de privacidad</li>
             <li>Criterios de compra</li>
         </ul>
-        <ul>
+        <ul class="col-12 col-sm-6 col-md-3 row">
             <li><h3>Sitio</h3></li>
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./Productos.html">Productos</a></li>
-            <li><a href="./Contacto.html">Contacto</a></li>
-            <li><a href="./Nosotros.html">Nosotros</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./compramos.html">Compramos</a></li>
         </ul>
     </footer>
 </body>
