@@ -9,6 +9,13 @@ body main {
   margin-top: 7rem;
   max-width: 1200px;
 }
+body footer {
+  color: #F6F8FA;
+}
+body footer ul {
+  list-style: none;
+}
+
 H1 {
   font-family: "Raleway";
   font-size: 3rem;
@@ -46,7 +53,7 @@ H1 {
 }
 
 .jy-color {
-  color: aliceblue;
+  color: #F0C984;
 }
 
 .jy-margin {

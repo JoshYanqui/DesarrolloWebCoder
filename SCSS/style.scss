@@ -13,7 +13,11 @@ body{
         max-width: $ancho-maximo-contenido;
     }
     footer{
-        @extend header
+        @extend header;
+        color: $color-fondo;
+        ul{
+            list-style: none;
+        }
     }
 }
 
@@ -43,7 +47,7 @@ H1{
     margin-right: 0.5rem;
 }
 .jy-color{
-    color: aliceblue;
+    color: $color-secundario;
 }
 
 .jy-margin{
