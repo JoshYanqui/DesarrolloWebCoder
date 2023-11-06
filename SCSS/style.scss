@@ -1,15 +1,46 @@
-body {
-    width: 100vw !important; 
-  }
-  
-main{
-    margin-top: 7rem;
+@import './base/var';
+@import './base/mixin';
+@import './base/mapa';
+
+body{
+    background-color: map-get($temas, tema-claro);
+    header{
+        background-color: map-get($temas, tema-oscuro);
+        overflow: hidden;
+    }
+    main{
+        margin-top: 7rem;
+        max-width: $ancho-maximo-contenido;
+    }
+    footer{
+        @extend header
+    }
 }
-header{
-    background-color: #0E2537;
+
+
+H1{
+    font-family: $fuente-principal;
+    font-size: $tamano-txt-normal*3;
 }
-footer{
-    @extend header
+
+.jy-form{
+    border: none;
+    background-color: $color-card;
+}
+.jy-card{
+    background-color: $color-card;
+
+}
+
+.jy-btn-1{
+    @include estilo-botones($color-texto);
+    border: none;
+    background-color: $color-secundario;
+}
+.jy-btn-2{
+    @include estilo-botones($color-texto);
+    border: solid 0.2rem $color-secundario;
+    margin-right: 0.5rem;
 }
 .jy-color{
     color: aliceblue;

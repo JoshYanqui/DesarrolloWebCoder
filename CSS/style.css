@@ -1,13 +1,48 @@
 body {
-  width: 100vw !important;
+  background-color: #F6F8FA;
 }
-
-main {
+body header, body footer {
+  background-color: #061017;
+  overflow: hidden;
+}
+body main {
   margin-top: 7rem;
+  max-width: 1200px;
+}
+H1 {
+  font-family: "Raleway";
+  font-size: 3rem;
 }
 
-header, footer {
-  background-color: #0E2537;
+.jy-form {
+  border: none;
+  background-color: #E7E9EB;
+}
+
+.jy-card {
+  background-color: #E7E9EB;
+}
+
+.jy-btn-1 {
+  color: #061017;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #F0C984;
+}
+
+.jy-btn-2 {
+  color: #061017;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: solid 0.2rem #F0C984;
+  margin-right: 0.5rem;
 }
 
 .jy-color {
