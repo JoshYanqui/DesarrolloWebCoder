@@ -4,6 +4,7 @@
 
 body{
     background-color: map-get($temas, tema-claro);
+    font-family: $fuente-principal;
     header{
         background-color: map-get($temas, tema-oscuro);
         overflow: hidden;
@@ -22,11 +23,12 @@ body{
 }
 
 
-H1{
-    font-family: $fuente-principal;
+h1{
     font-size: $tamano-txt-normal*3;
 }
-
+h2{
+    font-size: $tamano-txt-normal*2;
+}
 .jy-form{
     border: none;
     background-color: $color-card;

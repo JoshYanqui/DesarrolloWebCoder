@@ -1,5 +1,6 @@
 body {
   background-color: #F6F8FA;
+  font-family: "Raleway";
 }
 body header, body footer {
   background-color: #061017;
@@ -16,9 +17,12 @@ body footer ul {
   list-style: none;
 }
 
-H1 {
-  font-family: "Raleway";
+h1 {
   font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 .jy-form {
